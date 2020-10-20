@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<title>
+David Rumsey Historical Map Collection
+| 
+    Old Maps Online - Historical Maps Search Portal
+
+</title>
+<meta name="author" content="David Rumsey" />
+<meta name="geourl" content="37.770891,  -122.443744" />
+<meta name="copyright" content="2009, David Rumsey" />
+<meta name="keywords" content="historic,map,North America,geography,historical,old,rare,genealogy,antique,collection,cartography,digital,United States,globe,chart,atlas,South America,World,Europe,Asia,Africa,maritime,database,blog,school,manuscript,luna,reproductions" />
+<meta name="description" content="Old Maps Online www.oldmapsonline.org is a search portal for historical maps from five different map libraries in Europe and the United States. The David Rum..." />
+<meta content='David Rumsey Map Collection' name='DC.title'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<link rel="stylesheet" media="screen" href="/assets/application-8fdbe19c5f56507a23c647238b49564fe6ef02139be625812c2ffbe5bff44f13.css" />
+<link rel="stylesheet" media="screen" href="/assets/globe-3c075da4f98501f2e6b4e408e115b2e5171fb0d740913ced4aad41ae007b1f57.css" />
+
+<link href='/favicon.png' rel='shortcut icon' type='image/png'>
+<link href='https://feeds.feedburner.com/DavidRumseyHistoricalMapCollection' rel='alternate' title='David Rumsey Historical Map Collection - Blog' type='application/atom+xml'>
+<link href='/assets/color-4ad3a17f604f63b678925a70cd80f05a9247feca8b0298ea6f885c933c5e205d.css' id='light_theme' media='screen' rel='stylesheet' title='light' type='text/css'>
+<script>
+  function isDarkTheme() { return document.cookie.match(/dark_theme=1/); }
+  if(isDarkTheme()) { document.getElementById("light_theme").disabled = true; }
+</script>
+
+</head>
+<body height='100%'>
+<div height='100%' id='container'>
+<!--
+  <p id="flash_notice" class="flash notice" style="display: none;"></p>
+  <p id="flash_error" class="flash error" style="display: none;"></p>
+
+-->
+<div id='nav_container'>
+<div id='nav'>
+<input id='mobile-nav-input' type='checkbox'>
+<label class='mobile-bars' for='mobile-nav-input'></label>
+<ul class='header-nav'>
+<li>
+<a href="/home">Home</a>
+<input class='nested-nav-input' id='Home-toggle' type='checkbox'>
+<label class='nested-chevron' for='Home-toggle'></label>
+<ul class='nested-nav'>
+<!-- UGH hack -->
+<li>
+<a href="/home/the-collection">The Collection</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/about">About</a>
+<input class='nested-nav-input' id='About-toggle' type='checkbox'>
+<label class='nested-chevron' for='About-toggle'></label>
+<ul class='nested-nav'>
+<!-- UGH hack -->
+<li>
+<a href="/about/about">Collection History</a>
+</li>
+<li>
+<a href="/about/david-rumsey">David Rumsey</a>
+</li>
+<li>
+<a href="/about/copyright-and-permissions">Copyright and Permissions</a>
+</li>
+<li>
+<a href="/about/quicktimevr">Panoramas of Original Rumsey Library Space</a>
+</li>
+<li>
+<a href="https://www.davidrumsey.com/demo/flash.html">Flash Collection Tour</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/view">View Collection</a>
+<input class='nested-nav-input' id='View Collection-toggle' type='checkbox'>
+<label class='nested-chevron' for='View Collection-toggle'></label>
+<ul class='nested-nav'>
+<!-- UGH hack -->
+<li>
+<a href="/view/view">View Collection</a>
+</li>
+<li>
+<a href="/view/luna">LUNA Viewer </a>
+<a class="external" target="_blank" href="https://www.davidrumsey.com/luna/servlet/view/all?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No"><span>external</span>
+</a></li>
+<li>
+<a href="/view/georeferencer">Georeferencer</a>
+<a class="external" target="_blank" href="https://davidrumsey.georeferencer.com/random?collection=pilot"><span>external</span>
+</a></li>
+<li>
+<a href="/view/maprank-search">MapRank Search</a>
+<a class="external" target="_blank" href="https://rumsey.mapranksearch.com/"><span>external</span>
+</a></li>
+<li>
+<a href="/view/google-earth">Google Earth</a>
+<a class="external" target="_blank" href="https://www.davidrumsey.com/rumsey_collection.kmz"><span>external</span>
+</a></li>
+<li>
+<a href="/view/google-maps">Google Maps</a>
+<a class="external" target="_blank" href="https://rumsey.geogarage.com/"><span>external</span>
+</a></li>
+<li>
+<a href="/view/second-life">Second Life</a>
+<a class="external" target="_blank" href="http://secondlife.com/destination/1919"><span>external</span>
+</a></li>
+<li>
+<a href="/view/insight">Insight Java Client 6.3</a>
+</li>
+<li>
+<a href="/view/ticker">Collections Ticker</a>
+</li>
+<li>
+<a href="/view/atlases">Atlases</a>
+</li>
+<li>
+<a href="https://www.davidrumsey.com/luna/servlet/browseByCategory">Browse By Categories: What, Where, Who, When</a>
+</li>
+<li>
+<a href="/view/past">Past Ways to View The Collections</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/publications">Publications</a>
+<input class='nested-nav-input' id='Publications-toggle' type='checkbox'>
+<label class='nested-chevron' for='Publications-toggle'></label>
+<ul class='nested-nav'>
+<!-- UGH hack -->
+<li>
+<a href="/publications/cartographica">Cartographica Extraordinaire</a>
+</li>
+<li>
+<a href="/publications/past-time-past-place">Past Time, Past Place</a>
+</li>
+<li>
+<a href="/publications/mapping-the-west">Mapping the West</a>
+</li>
+<li>
+<a href="/publications/mapping-san-francisco">San Francisco in Maps</a>
+</li>
+<li>
+<a href="/publications/reproductions">Reproductions</a>
+</li>
+<li>
+<a href="/publications/rumsey-map-catalogs">Rumsey Map Catalogs</a>
+</li>
+<li>
+<a href="/maps-up-close">Maps Up Close</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/blog">Blog</a>
+<input class='nested-nav-input' id='Blog-toggle' type='checkbox'>
+<label class='nested-chevron' for='Blog-toggle'></label>
+<ul class='nested-nav'>
+<!-- UGH hack -->
+<li><a href="/blog">All Categories</a></li>
+<li>
+<a href="/blog/categories/recent-additions">Recent Additions</a>
+</li>
+<li>
+<a href="/blog/categories/news">News</a>
+</li>
+<li>
+<a href="/blog/categories/featured-maps">Featured Maps</a>
+</li>
+<li>
+<a href="/blog/categories/related-sites">Related Collections</a>
+</li>
+<li>
+<a href="/blog/categories/videos">Videos</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/help">Help</a>
+<input class='nested-nav-input' id='Help-toggle' type='checkbox'>
+<label class='nested-chevron' for='Help-toggle'></label>
+<ul class='nested-nav'>
+<!-- UGH hack -->
+<li>
+<a href="/help/center">Help Center</a>
+</li>
+<li>
+<a href="/help/contact">Contact</a>
+</li>
+<li>
+<a href="#switch_site_colors">Switch Site Colors</a>
+</li>
+<li>
+<a href="https://mailchi.mp/davidrumsey/join-our-mail-list">Join Our Mail List</a>
+</li>
+</ul>
+</li>
+<li class='spacer'></li>
+<li class='share-nav'>
+<span>Share</span>
+<input class='nested-nav-input' id='share-toggle' type='checkbox'>
+<label class='nested-chevron' for='share-toggle'></label>
+<ul class='nested-nav'>
+<li>
+<a target="_blank" class="facebook-icon track_external" href="https://www.facebook.com/David-Rumsey-Map-Collection-216302804001/"></a>
+<a target="_blank" class="twitter-icon track_external" href="https://twitter.com/davidrumseymaps"></a>
+<a target="_blank" class="instagram-icon track_external" href="https://www.instagram.com/david_rumsey_maps/"></a>
+<a target="_blank" class="rss-icon track_external" href="https://feeds.feedburner.com/DavidRumseyHistoricalMapCollection"></a>
+<a target="_blank" class="email-icon track_external" href="https://mailchi.mp/davidrumsey/join-our-mail-list"></a>
+</li>
+</ul>
+</li>
+</ul>
+<div id='search'>
+<form action='https://davidrumsey.com/luna/servlet/view/search' method='get' style='margin: 0px; padding: 0px' target='_blank'>
+<input name='sort' type='hidden' value='Pub_List_No_InitialSort,Pub_Date,Pub_List_No,Series_No'>
+<input class='text left autoclear' name='q' type='text' value='Search the Collection'>
+<input class='submit left' name='search' type='submit' value='Go'>
+</form>
+<div class='clear'></div>
+</div>
+</div>
+</div>
+
+<div id='header_container'>
+<div id='header'>
+<div id='title'>
+<h1><a href="/">David Rumsey Map Collection</a></h1>
+<h2>
+<span><a href="/">Cartography Associates</a></span>
+<i><a target="_blank" href="http://www.lunaimaging.com/">powered by Luna Imaging</a></i>
+</h2>
+</div>
+</div>
+</div>
+<div id='content_container'>
+<div id='content'>
+<input id='toggle-sidebar' type='checkbox'>
+<main id='main'>
+  
+  <div class='box' id='article_182'>
+<h3>
+<div class='post left'>
+<ul>
+<li class='left'>
+<a href="/blog/categories/related-sites">Related Collections</a>
+</li>
+<li class='left'>
+<em class='star'><abbr class="datetime" title="2016-07-05T02:47:00Z">July  4, 2016</abbr></em>
+</li>
+<div class='clear'></div>
+</ul>
+</div>
+<div class='links right'>
+<ul>
+<li class='left share'>
+<a class='star toggle_overlay' href='https://www.davidrumsey.com/blog/2016/7/4/old-maps-online-historical-maps-search-portal'>Share this Post</a>
+<div class='link overlay' style='display: none'>
+<iframe bgcolor='red' src='about:blank' style='width: 100%; height: 100%; border: 0; position: absolute; z-index: -1'></iframe>
+<div class='sm_pad'>
+<em>Link to share:</em>
+<input class='hidden' type='hidden' value='Old Maps Online - Historical Maps Search Portal'>
+<input class='text' type='text' value='https://www.davidrumsey.com/blog/2016/7/4/old-maps-online-historical-maps-search-portal'>
+</div>
+<div id='shortcuts'>
+<em class='block'>Shortcuts:</em>
+<div class='clear'></div>
+<div class='left_align'>
+<a data-template="https://www.facebook.com/share.php?u={eurl}&amp;t={etitle}" class="facebook" target="_blank" href="#">Facebook</a>
+<a data-template="https://www.twitter.com/?status={title}+{url}" class="twitter" target="_blank" href="#">Twitter</a>
+<a data-template="https://www.myspace.com/Modules/PostTo/Pages/?u={eurl}&amp;t={etitle}" class="myspace" target="_blank" href="#">Myspace</a>
+<a data-template="https://del.icio.us/post?url={eurl}&amp;title={etitle}" class="delicious" target="_blank" href="#">Delicious</a>
+<div class='clear'></div>
+<a data-template="https://www.blogger.com/blog_this.pyra?t&amp;u={eurl}&amp;l&amp;n={etitle}&amp;pli=1" class="blogger" target="_blank" href="#">Blogger</a>
+<a data-template="https://www.linkedin.com/shareArticle?mini=true&amp;url={eurl}&amp;title={etitle}&amp;summary=&amp;source=" class="linkedin" target="_blank" href="#">Linked In</a>
+<a data-template="https://reddit.com/submit?url={eurl}&amp;title={etitle}" class="reddit" target="_blank" href="#">Reddit</a>
+<a data-template="https://www.stumbleupon.com/submit?url={eurl}&amp;title={etitle}" class="stumbleupon" target="_blank" href="#">StumbleUpon</a>
+<div class='clear'></div>
+<a data-template="https://www.digg.com/submit?url={url}&amp;title={etitle}" class="digg" target="_blank" href="#">Digg</a>
+<a data-template="https://slashdot.org/bookmark.pl?url={eurl}&amp;title={etitle}" class="slashdot" target="_blank" href="#">Slashdot</a>
+<a data-template="https://www.technorati.com/faves?add={eurl}&amp;title={etitle}" class="technorati" target="_blank" href="#">Technorati</a>
+<a data-template="mailto:?subject={etitle}&amp;body={etitle}: {eurl}" class="email" target="_blank" href="#">Email</a>
+</div>
+<div class='clear'></div>
+</div>
+<div class='right_align'>
+<div class='sm_pad'>
+<a class="close_overlay" href="#">Close Menu</a>
+</div>
+</div>
+</div>
+</li>
+
+<li class='left'>
+<span class="visible_for author-article-182 moderator-article-182 superuser author-blog-2 moderator-blog-2 author-site-1 moderator-site-1"><a class='star' href='/admin/sites/1/blogs/blog/articles/old-maps-online-historical-maps-search-portal/edit'>Edit</a>
+</span></li>
+<div class='clear'></div>
+</ul>
+</div>
+<div class='clear'></div>
+</h3>
+<div class='inner'>
+<h2 class='title'><a href="/blog/2016/7/4/old-maps-online-historical-maps-search-portal">Old Maps Online - Historical Maps Search Portal</a></h2>
+<p>Old Maps Online <a target="_blank" href="https://www.oldmapsonline.org">www.oldmapsonline.org</a> is a search portal for historical maps from five different map libraries in Europe and the United States. The David Rumsey Map Collection is a participating library. The search interface is similar to the MapRank search that is used on the Rumsey site. As of March 1, 2012, about 60,000 historical maps are in the search portal. It is expected that the number of participating libraries will increase over the coming year, along with the number of maps in the portal.&#160; Below is the opening screen of the search portal:</p>
+<p></p>
+<div class="subtitle_two"><a href="https://www.oldmapsonline.org" target="_blank"><img height="622" width="700" src=" https://rumsey3.s3.amazonaws.com/images/OMO.jpg" alt="" /></a></div>
+<div class="subtitle_two">The search interface for Old Maps Online, <a target="_blank" href="https://www.oldmapsonline.org">www.oldmapsonline.org</a></div>
+<div class='clear'></div>
+</div>
+<h3>
+<ul class='left'>
+<li class='left'>
+<a href='#comment_form'>Add a Comment</a>
+</li>
+</ul>
+<div class='links right'>
+<ul>
+<li class='left share'>
+<a class='star toggle_overlay' href='https://www.davidrumsey.com/blog/2016/7/4/old-maps-online-historical-maps-search-portal'>Share this Post</a>
+<div class='link overlay' style='display: none'>
+<iframe bgcolor='red' src='about:blank' style='width: 100%; height: 100%; border: 0; position: absolute; z-index: -1'></iframe>
+<div class='sm_pad'>
+<em>Link to share:</em>
+<input class='hidden' type='hidden' value='Old Maps Online - Historical Maps Search Portal'>
+<input class='text' type='text' value='https://www.davidrumsey.com/blog/2016/7/4/old-maps-online-historical-maps-search-portal'>
+</div>
+<div id='shortcuts'>
+<em class='block'>Shortcuts:</em>
+<div class='clear'></div>
+<div class='left_align'>
+<a data-template="https://www.facebook.com/share.php?u={eurl}&amp;t={etitle}" class="facebook" target="_blank" href="#">Facebook</a>
+<a data-template="https://www.twitter.com/?status={title}+{url}" class="twitter" target="_blank" href="#">Twitter</a>
+<a data-template="https://www.myspace.com/Modules/PostTo/Pages/?u={eurl}&amp;t={etitle}" class="myspace" target="_blank" href="#">Myspace</a>
+<a data-template="https://del.icio.us/post?url={eurl}&amp;title={etitle}" class="delicious" target="_blank" href="#">Delicious</a>
+<div class='clear'></div>
+<a data-template="https://www.blogger.com/blog_this.pyra?t&amp;u={eurl}&amp;l&amp;n={etitle}&amp;pli=1" class="blogger" target="_blank" href="#">Blogger</a>
+<a data-template="https://www.linkedin.com/shareArticle?mini=true&amp;url={eurl}&amp;title={etitle}&amp;summary=&amp;source=" class="linkedin" target="_blank" href="#">Linked In</a>
+<a data-template="https://reddit.com/submit?url={eurl}&amp;title={etitle}" class="reddit" target="_blank" href="#">Reddit</a>
+<a data-template="https://www.stumbleupon.com/submit?url={eurl}&amp;title={etitle}" class="stumbleupon" target="_blank" href="#">StumbleUpon</a>
+<div class='clear'></div>
+<a data-template="https://www.digg.com/submit?url={url}&amp;title={etitle}" class="digg" target="_blank" href="#">Digg</a>
+<a data-template="https://slashdot.org/bookmark.pl?url={eurl}&amp;title={etitle}" class="slashdot" target="_blank" href="#">Slashdot</a>
+<a data-template="https://www.technorati.com/faves?add={eurl}&amp;title={etitle}" class="technorati" target="_blank" href="#">Technorati</a>
+<a data-template="mailto:?subject={etitle}&amp;body={etitle}: {eurl}" class="email" target="_blank" href="#">Email</a>
+</div>
+<div class='clear'></div>
+</div>
+<div class='right_align'>
+<div class='sm_pad'>
+<a class="close_overlay" href="#">Close Menu</a>
+</div>
+</div>
+</div>
+</li>
+
+<li class='left'>
+</li>
+<div class='clear'></div>
+</ul>
+</div>
+<div class='clear'></div>
+</h3>
+</div>
+
+
+    <a name='comments'></a>
+
+      <div class='box inner' id='comment_input'>
+  <p id="flash_notice" class="flash notice" style="display: none;"></p>
+  <p id="flash_error" class="flash error" style="display: none;"></p>
+
+<form class="new_comment" id="new_comment" action="/comments" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yjsxnkznFG2STEKCZf5QUGtlMJOua7mv4GIWUpqTveuCjac3Vo8NPRRslJ14bk1ZbJ2Y4sl8wX9iZV433RgSSg==" /><div class='antispam'></div>
+<input type="hidden" name="return_to" id="return_to" value="/blog/2016/7/4/old-maps-online-historical-maps-search-portal?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+DavidRumseyHistoricalMapCollection+%28David+Rumsey+Maps%29" class="hidden" />
+<input type="hidden" name="comment[commentable_type]" id="comment_commentable_type" value="Article" class="hidden" />
+<input type="hidden" name="comment[commentable_id]" id="comment_commentable_id" value="182" class="hidden" />
+
+<div id='anonymous_author'>
+<div class='field left'>
+<label for="comment_author_name">*Name</label>
+<input type="text" name="comment[author_name]" id="comment_author_name" class="text" />
+<label for="comment_author_email">*Email <em>(not displayed on site)</em></label>
+<input type="text" name="comment[author_email]" id="comment_author_email" class="text" />
+</div>
+</div>
+<div class='field right'>
+<label for="comment_body">*Comments</label>
+<textarea name="comment[body]" id="comment_body">
+</textarea>
+</div>
+<div class='clear'></div>
+<div class='field right'>
+<input class='submit star right' type='submit' value='Save Comment'>
+<div class='clear'></div>
+</div>
+<div class='clear'></div>
+</form></div>
+
+
+</main>
+<aside id='sidebar'>
+<label for='toggle-sidebar'>
+<span>Toggle sidebar</span>
+</label>
+<div class='inner'>
+<div id='search'>
+<form action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<input class='text left autoclear' name='term' type='text' value='Search the Site'>
+<input class='submit left' type='submit' value='Go'>
+</form>
+
+<div class='clear'></div>
+</div>
+<div class='inner networking-icons'>
+<a target="_blank" class="facebook-icon track_external" href="https://www.facebook.com/David-Rumsey-Map-Collection-216302804001/"></a>
+<a target="_blank" class="twitter-icon track_external" href="https://twitter.com/davidrumseymaps"></a>
+<a target="_blank" class="instagram-icon track_external" href="https://www.instagram.com/david_rumsey_maps/"></a>
+<a target="_blank" class="rss-icon track_external" href="https://feeds.feedburner.com/DavidRumseyHistoricalMapCollection"></a>
+<a target="_blank" class="email-icon track_external" href="https://mailchi.mp/davidrumsey/join-our-mail-list"></a>
+</div>
+
+<h4>Blog</h4>
+<hr>
+<ul class='categories'>
+<li><a href="/blog">All Categories</a></li>
+<li><a href="/blog/categories/recent-additions">Recent Additions</a></li>
+<li><a href="/blog/categories/news">News</a></li>
+<li><a href="/blog/categories/featured-maps">Featured Maps</a></li>
+<li><a href="/blog/categories/related-sites" class="current">Related Collections</a></li>
+<li><a href="/blog/categories/videos">Videos</a></li>
+</ul>
+</div>
+
+<div class='inner'>
+<h4>Quicklinks</h4>
+<hr>
+<p>
+<em>The collection may be viewed with the following applications:</em>
+</p>
+<ul id='sidebar_quicklinks'>
+<li>
+<a href="/view/luna">LUNA Viewer</a>
+<div class='external_link'><a target="_blank" href="https://www.davidrumsey.com/luna/servlet/view/all?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No">&nbsp;</a></div>
+</li>
+<li>
+<a href="/view/georeferencer">Georeferencer v4</a>
+<div class='external_link'><a target="_blank" href="https://davidrumsey.georeferencer.com/random?collection=pilot">&nbsp;</a></div>
+</li>
+<li>
+<a href="/view/maprank-search">MapRank Search</a>
+<div class='external_link'><a target="_blank" href="https://rumsey.mapranksearch.com/">&nbsp;</a></div>
+</li>
+<li>
+<a href="/view/google-earth">Google Earth</a>
+<div class='external_link'><a target="_blank" href="/rumsey_collection.kmz">&nbsp;</a></div>
+</li>
+<li>
+<a href="/view/google-maps">Google Maps</a>
+<div class='external_link'><a target="_blank" href="https://rumsey.geogarage.com/">&nbsp;</a></div>
+</li>
+<li>
+<a href="/view/second-life">Second Life</a>
+<div class='external_link'><a target="_blank" class="track_external" href="http://secondlife.com/destination/1919">&nbsp;</a></div>
+</li>
+<li>
+<a href="/view/insight">Insight Java Client</a>
+</li>
+<li>
+<a href="/view/ticker">Ticker</a>
+<div class='external_link'><a target="_blank" class="popup_full_width" href="https://www.davidrumsey.com/luna/servlet/view/all?embedded=true&amp;sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&amp;res=2&amp;pgs=50&amp;fromWidgetCreator=1&amp;widgetFormat=ticker&amp;widgetType=thumbnail&amp;bgcolor=%23dad1ca&amp;textColor=%23dad1ca&amp;buttonColor=%234E3A20&amp;buttonSelectedColor=%23588B8B&amp;random=0&amp;cic=RUMSEY%7E8%7E1&amp;hideLink=true&amp;resetAfter=750&amp;randomStart=1">&nbsp;</a></div>
+</li>
+<li>
+<a href="/view/atlases">Atlases</a>
+</li>
+<li>
+<a href="https://www.davidrumsey.com/luna/servlet/browseByCategory" target="_blank">Browse by Categories</a>
+</li>
+<li>
+<a href="/view/past">Past Ways to View</a>
+</li>
+</ul>
+</div>
+<div class='inner'>
+<h4>Mailchimp</h4>
+<hr>
+<a target="_blank" class="join-button" href="https://mailchi.mp/davidrumsey/join-our-mail-list">Join Our Mail List</a>
+</div>
+<div class='inner'>
+<h4>Luna Imaging</h4>
+<hr>
+<p>LUNA is a web-hosted software solution developed to display, manage and preserve all types of digital archive collections, image collections, special collections and library collections.</p>
+<a target="_blank" class="button" href="http://www.lunaimaging.com/">Learn more</a>
+</div>
+<div class='inner' id='reproductions_sidebar'>
+<h4>Reproductions</h4>
+<hr>
+<em>
+<a class='frame' href='/publications/reproductions'></a>
+<br>
+Buy prints through LUNA Viewer.
+<a class='more' href='/publications/reproductions'>Learn more</a>
+</em>
+</div>
+<div class='inner' id='ar_sidebar'>
+<h4>AR Globe</h4>
+<hr>
+<a class='ar-link' href='https://t.co/u35VwgfNpR' target='_blank'><img src="/assets/ar-globe-72656d022d3b73f2476c9219320a17f6c066760f144276612951a26d0f4c92ab.png" /></a>
+<em>Try an augmented reality experience with historical globes.<br/></em>
+<a class='more' href='https://t.co/u35VwgfNpR' target='_blank'>Download the AR Globe App</a>
+</div>
+<div class='inner center_align'>
+<em>Find our maps and others on</em>
+<br>
+<a target="_blank" class="old-maps-online" href="https://www.oldmapsonline.org"></a>
+</div>
+<div class='inner center_align'>
+<p>
+<em>Webby Award winner in Technical Achievement</em>
+</p>
+<br>
+<div class='webby'></div>
+</div>
+<div class='inner center_align'>
+<p>
+<em>Registered Data Provider</em>
+</p>
+<a class='open-archives' href='https://www.openarchives.org' target='_blank'></a>
+</div>
+
+</aside>
+<div class='clear'></div>
+</div>
+</div>
+<footer>
+<div class='footer-section'>
+<h5>Browse</h5>
+<ul class='footer-nav'>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/view">View Collection</a></li>
+<li><a href="/publications">Publications</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/help">Help</a></li>
+</ul>
+</div>
+<div class='footer-section'>
+<h5>Luna Imaging</h5>
+<p>LUNA is a web-hosted software solution developed to display, manage and preserve all types of digital archive collections, image collections, special collections and library collections.</p>
+<a target="_blank" class="button" href="http://www.lunaimaging.com/">Learn more</a>
+</div>
+<div class='footer-section'>
+<h5>Reproductions</h5>
+<a class='frame' href='/publications/reproductions'></a>
+<p>
+Buy prints through LUNA Viewer.<br/>
+<a class='more' href='/publications/reproductions'>Learn more</a>
+</p>
+</div>
+<div class='footer-section'>
+<h5>AR Globe</h5>
+<a class='ar-link' href='https://t.co/u35VwgfNpR' target='_blank'><img src="/assets/ar-globe-72656d022d3b73f2476c9219320a17f6c066760f144276612951a26d0f4c92ab.png" /></a>
+<p>
+Try an augmented reality experience with historical globes.<br/>
+<a class='more' href='https://t.co/u35VwgfNpR' target='_blank'>Download the AR Globe App</a>
+</p>
+</div>
+<div class='footer-section'>
+<h5>Acknowledgements</h5>
+<div class='acknowledgement'>
+<div class='webby'></div>
+<p>Webby Award winner in Technical Achievement</p>
+</div>
+<div class='acknowledgement'>
+<a class='open-archives' href='https://www.openarchives.org' target='_blank'></a>
+<p>Registered Data Provider</p>
+</div>
+</div>
+<div class='footer-section'>
+<h5>Share</h5>
+<div class='inner networking-icons'>
+<a target="_blank" class="facebook-icon track_external" href="https://www.facebook.com/David-Rumsey-Map-Collection-216302804001/"></a>
+<a target="_blank" class="twitter-icon track_external" href="https://twitter.com/davidrumseymaps"></a>
+<a target="_blank" class="instagram-icon track_external" href="https://www.instagram.com/david_rumsey_maps/"></a>
+<a target="_blank" class="rss-icon track_external" href="https://feeds.feedburner.com/DavidRumseyHistoricalMapCollection"></a>
+<a target="_blank" class="email-icon track_external" href="https://mailchi.mp/davidrumsey/join-our-mail-list"></a>
+</div>
+
+<h5>Mailchimp</h5>
+<a target="_blank" class="join-button" href="https://mailchi.mp/davidrumsey/join-our-mail-list">Join Our Mail List</a>
+<h5>Discover</h5>
+<a target="_blank" class="old-maps-online" href="https://www.oldmapsonline.org"></a>
+<p>
+<em>Find our maps and others on</em>
+</p>
+</div>
+</footer>
+<div class='footer-copyright'>
+<p>
+Copyright ©2020 Cartography Associates.  All Rights Reserved.
+<a href='/about/copyright-and-permissions'>Learn more</a>
+</p>
+<a class='cc' href='https://creativecommons.org/licenses/by-nc-sa/3.0/' target='_blank'></a>
+</div>
+
+</div>
+<script src="/assets/application-6524943022e80ec343e11094b1eb8f7621c0575b0a94af6ada0424b59027cd0d.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r114/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.min.js"></script>
+<script src="/assets/globe-9323619d2a1f77ae144ba8f2112299b060c0315c5fea6d22eb58ca697a54aa0e.js"></script>
+
+<!-- extra characters because for some reason we're losing the last few on production -->
+</body>
+</html>
